@@ -2,6 +2,8 @@ object luke{
     var cantidadViajes = 0
     var recuerdo = null
     var vehiculo = alambiqueVeloz
+    var property rapido = true
+    var property patenteValida = true
 
     method cantidadViajes() = cantidadViajes 
 
@@ -12,6 +14,8 @@ object luke{
             vehiculo.desgaste()
         }
     }
+    method puedeFuncionar() = true
+    
     method recuerdo() = recuerdo
     method vehiculo(nuevo) {vehiculo = nuevo}
 }

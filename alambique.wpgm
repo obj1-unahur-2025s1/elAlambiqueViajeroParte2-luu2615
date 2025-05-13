@@ -1,0 +1,8 @@
+import elAlambiqueViajero.*
+import inscripcion.*
+
+program alambique{
+    centroDeInscripcion.inscribirSiPuede(luke)
+    console.println(centroDeInscripcion.inscriptos())
+    centroDeInscripcion.cambiarLugar(lasVegas)
+}
